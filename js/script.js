@@ -19,6 +19,7 @@ const searchStates = async searchText => {
    
     if(searchText.length == 0){
         matches = [];
+        matchList.innerHTML = "🤠Howdy Partner, user the box above to find your state capital";
     }
 
     // pass results to output function 
